@@ -1,0 +1,150 @@
+.page{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h1{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:30px;
+    color:#1e293b;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#334155;
+}
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:
+        0 4px 20px
+        rgba(0,0,0,0.06);
+}
+
+/* inputs */
+
+input{
+    width:100%;
+    padding:12px 14px;
+    border:1px solid #dbe1ea;
+    border-radius:8px;
+    font-size:15px;
+    color:#111827;
+    background:white;
+    outline:none;
+}
+
+input:focus{
+    border-color:#2563eb;
+}
+
+/* search */
+
+.search-box{
+    max-width:350px;
+    margin-bottom:20px;
+}
+
+/* table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    text-align:left;
+    padding:16px;
+    color:#64748b;
+    font-weight:600;
+    border-bottom:2px solid #e2e8f0;
+}
+
+td{
+    padding:16px;
+    color:#1e293b;
+    border-bottom:1px solid #edf2f7;
+}
+
+/* buttons */
+
+button{
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+}
+
+td button{
+    background:#2563eb;
+    color:white;
+    padding:8px 16px;
+}
+
+td button:hover{
+    background:#1d4ed8;
+}
+
+.add-btn{
+    margin-top:20px;
+    background:#16a34a;
+    color:white;
+    padding:12px 20px;
+}
+
+.add-btn:hover{
+    background:#15803d;
+}
+
+/* form */
+
+.form-grid{
+    display:grid;
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:16px;
+}
+
+/* row highlighting */
+.expired {
+    background: #ef4444;
+    color: white;
+    font-weight: 600;
+}
+
+.low-stock {
+    background: #facc15;
+    font-weight: 600;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
